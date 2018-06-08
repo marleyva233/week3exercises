@@ -1,0 +1,72 @@
+/*
+[0]GENERAL
+[1]NAVIGATION
+[2]SECTION
+[3]
+*/
+
+
+/*[0]GENERAL*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*[1]NAVIGATION*/
+ul{
+	list-style: none;
+	display: inline-block;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+nav{
+	text-align: center;
+}
+nav li a{
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #fff;
+	transition: 2s ease;
+}
+nav li a:hover{
+	background-color: #e3e5e8;
+	border: 1px solid #e6e6e6;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+/*[2]SECTION*/
+.buttons{
+	text-align: center;
+}
+button{
+	color: #000;
+	border-radius: 15px;
+	padding: 10px;
+	border:none;
+}
+.btn1{
+	background-color: #a3c7c9;
+}
+.btn2{
+	background-color: #a3c9b4;
+}
+.btn3{
+	background-color: #c9a3a3;
+}
+.btn1:hover, .btn2:hover, .btn3:hover{
+	color: #fff;
+}
+.btn1:hover{
+	background-color: #a2bdbe;
+}
+.btn2:hover{
+	background-color: #92ac9e;
+}
+.btn3:hover{
+	background-color: #b89d9d;
+}
